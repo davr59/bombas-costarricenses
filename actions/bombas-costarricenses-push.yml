@@ -1,1 +1,5 @@
-
+name: 'bombas-costarricenses-push'
+description: 'bombas-costarricenses-push'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
