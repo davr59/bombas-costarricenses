@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  local-node-dev:
+    image: local-node-dev:ask
+    volumes:
+      - type: bind
+        source: ./data
+        target: /data
+    environment:
+      - USER_NAME=${USER_NAME}
+      - USER_EMAIL=${USER_EMAIL}
+      - SKILL_NAME=${SKILL_NAME}
