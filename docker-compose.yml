@@ -1,8 +1,8 @@
 version: '3.8'
 
 services:
-  local-node-dev:
-    image: local-node-dev:ask
+  ask-push:
+    image: ask-push
     volumes:
       - type: bind
         source: ./data
