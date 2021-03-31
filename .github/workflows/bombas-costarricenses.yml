@@ -14,5 +14,4 @@ jobs:
     steps:
       - name: push      
         id: push
-        uses: ./
         uses: actions/bombas-costarricenses-push@v1
