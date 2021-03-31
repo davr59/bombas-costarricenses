@@ -1,0 +1,14 @@
+on: [push]
+
+jobs:
+  bombas-costarricenses:
+    runs-on: ubuntu-latest
+    name: bombas-costarricenses
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: bombas-costarricenses push
+        uses: ./
+        id: push
+      - name: completed
+        run: echo "Completed ${{ steps.push.outputs.time }}"
