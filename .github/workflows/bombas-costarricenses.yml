@@ -12,9 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: bombas-costarricenses-push
+      - name: push      
         id: push
         uses: ./
         uses: actions/bombas-costarricenses-push@v1
-      - name: completed
-        run: echo "Completed ${{ steps.push.outputs.time }}"
