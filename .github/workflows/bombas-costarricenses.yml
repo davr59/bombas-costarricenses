@@ -12,6 +12,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout
+        uses: actions/checkout@v2
       - name: push      
+        uses: ./
         id: push
-        uses: actions/bombas-costarricenses-push@v1
