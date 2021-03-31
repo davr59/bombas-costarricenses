@@ -1,0 +1,20 @@
+name: bombas-costarricenses
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: bombas-costarricenses-push
+        id: push
+        uses: ./
+        uses: actions/bombas-costarricenses-push@v1
+      - name: completed
+        run: echo "Completed ${{ steps.push.outputs.time }}"
