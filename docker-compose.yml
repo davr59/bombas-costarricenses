@@ -3,10 +3,6 @@ version: '3.8'
 services:
   ask-push:
     image: ask-push
-    volumes:
-      - type: bind
-        source: ./data
-        target: /data
     environment:
       - INPUT_BASE=${BASE}
       - INPUT_USER_NAME=${USER_NAME}
