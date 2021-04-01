@@ -17,3 +17,9 @@ jobs:
       - name: push      
         uses: ./
         id: push
+        with:
+          user_name: ${{ $USER_NAME }}
+          user_email: ${{ $USER_EMAIL }}
+          cli_config: ${{ $CLI_CONFIG }}
+          skill_id: ${{ $SKILL_ID }}
+          profile: ${{ $PROFILE }}
