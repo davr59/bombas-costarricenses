@@ -11,6 +11,8 @@ inputs:
     required: true
   profile:
     required: true
+  skill_name:
+    required: true
 runs:
   using: 'docker'
   image: 'Dockerfile'
