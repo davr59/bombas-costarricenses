@@ -1,6 +1,8 @@
 name: 'bombas-costarricenses-push'
 description: 'bombas-costarricenses-push'
 inputs:
+  base:
+    required: true
   user_name:
     required: true
   user_email:

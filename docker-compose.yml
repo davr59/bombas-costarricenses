@@ -8,6 +8,7 @@ services:
         source: ./data
         target: /data
     environment:
+      - INPUT_BASE=${BASE}
       - INPUT_USER_NAME=${USER_NAME}
       - INPUT_USER_EMAIL=${USER_EMAIL}
       - INPUT_CLI_CONFIG=${CLI_CONFIG}

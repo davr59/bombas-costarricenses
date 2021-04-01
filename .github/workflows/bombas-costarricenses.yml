@@ -18,6 +18,7 @@ jobs:
         uses: ./
         id: push
         with:
+          base: ${{ secrets.BASE }}
           user_name: ${{ secrets.USER_NAME }}
           user_email: ${{ secrets.USER_EMAIL }}
           cli_config: ${{ secrets.CLI_CONFIG }}
