@@ -1,5 +1,16 @@
 name: 'bombas-costarricenses-push'
 description: 'bombas-costarricenses-push'
+inputs:
+  USER_NAME:
+    required: true
+  USER_EMAIL:
+    required: true
+  CLI_CONFIG:
+    required: true
+  SKILL_ID:
+    required: true
+  PROFILE:
+    required: true
 runs:
   using: 'docker'
   image: 'Dockerfile'
