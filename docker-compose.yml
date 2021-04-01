@@ -8,6 +8,9 @@ services:
         source: ./data
         target: /data
     environment:
-      - USER_NAME=${USER_NAME}
-      - USER_EMAIL=${USER_EMAIL}
-      - SKILL_NAME=${SKILL_NAME}
+      - INPUT_USER_NAME=${USER_NAME}
+      - INPUT_USER_EMAIL=${USER_EMAIL}
+      - INPUT_CLI_CONFIG=${CLI_CONFIG}
+      - INPUT_SKILL_ID=${SKILL_ID}
+      - INPUT_PROFILE=${PROFILE}
+      - INPUT_SKILL_NAME=skill
