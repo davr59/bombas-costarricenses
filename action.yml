@@ -1,13 +1,13 @@
 name: 'bombas-costarricenses-push'
 description: 'bombas-costarricenses-push'
 inputs:
-  userName:
+  user_name:
     required: true
-  userEmail:
+  user_email:
     required: true
-  cliConfig:
+  cli_config:
     required: true
-  skillId:
+  skill_id:
     required: true
   profile:
     required: true
