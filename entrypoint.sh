@@ -1,7 +1,7 @@
 #!/bin/bash
-mkdir -p .ask && \
-touch .ask/cli_config && \
-echo ${INPUT_CLI_CONFIG} > .ask/cli_config && \
+mkdir -p ${INPUT_BASE}.ask && \
+touch ${INPUT_BASE}.ask/cli_config && \
+echo ${INPUT_CLI_CONFIG} > ${INPUT_BASE}.ask/cli_config && \
 cd /app && \
 echo ${INPUT_SKILL_NAME} | ask init --hosted-skill-id ${INPUT_SKILL_ID} -p ${INPUT_PROFILE} && \
 cd ${INPUT_SKILL_NAME} && \
