@@ -11,9 +11,9 @@ Data for alexa skill [bombas costarricenses](https://www.amazon.com/davr59-Costa
 
 ## Inicio rápido | Quickstart
 
-Los datos de las bombas que utiliza el skill están almacenados en un archivo json dentro de la carpeta data [bombas-costarricenses.json](https://github.com/davr59/bombas-costarricenses/blob/main/data/bombas-costarricenses.json) por lo que se pueden agregar nuevas bombas con pull requests o enviándomela y yo la agrego. La única condición es que las bombas deben ser para toda la familia.
+Los datos de las bombas que utiliza el skill están almacenados en un archivo json dentro de la carpeta data [bombas-costarricenses.json](https://github.com/davr59/bombas-costarricenses/blob/main/data/bombas-costarricenses.json). Se pueden agregar nuevas bombas con pull requests o enviándomelas a mí y yo las agrego. La única condición es que las bombas deben ser para toda la familia.
 
-Bombas data that the skill uses is stored in a json file inside data folder [bombas-costarricenses.json](https://github.com/davr59/bombas-costarricenses/blob/main/data/bombas-costarricenses.json) so new bombas can be added by pull requests or by sending it to me and I add it. Only condition is that the bombas must be for the whole family.
+Bombas data that the skill uses is stored in a json file inside data folder [bombas-costarricenses.json](https://github.com/davr59/bombas-costarricenses/blob/main/data/bombas-costarricenses.json). New bombas can be added by pull requests or by sending them to me and I will add them. Only condition is that the bombas must be for the whole family.
 
 ## ¿Quiere ayudar? | Want to help?
 
