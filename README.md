@@ -1,9 +1,13 @@
 # bombas-costarricenses
 bombas-costarricenses.
 
-Los datos para el skill de alexa: [bombas costarricenses](https://www.amazon.com/davr59-Costa-Rican-pumps/dp/B0929DQKBJ/ref=sr_1_1?dchild=1&keywords=bombas+costarricenses&qid=1618449817&s=digital-skills&sr=1-1) 
+Los datos para el skill de alexa [bombas costarricenses](https://www.amazon.com/davr59-Costa-Rican-pumps/dp/B0929DQKBJ/ref=sr_1_1?dchild=1&keywords=bombas+costarricenses&qid=1618449817&s=digital-skills&sr=1-1) 
 
-Data for alexa skill: [bombas costarricenses](https://www.amazon.com/davr59-Costa-Rican-pumps/dp/B0929DQKBJ/ref=sr_1_1?dchild=1&keywords=bombas+costarricenses&qid=1618449817&s=digital-skills&sr=1-1) 
+Data for alexa skill [bombas costarricenses](https://www.amazon.com/davr59-Costa-Rican-pumps/dp/B0929DQKBJ/ref=sr_1_1?dchild=1&keywords=bombas+costarricenses&qid=1618449817&s=digital-skills&sr=1-1) 
+
+## Comando | Command
+
+* Alexa, abrir bombas costarricenses.
 
 ## Inicio rápido | Quickstart
 
