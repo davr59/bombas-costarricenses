@@ -2,6 +2,7 @@ version: '3.8'
 
 services:
   ask-push:
+    container_name: ask-push
     image: ask-push
     environment:
       - INPUT_BASE=${BASE}
