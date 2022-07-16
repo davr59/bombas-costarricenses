@@ -1,7 +1,7 @@
 FROM davr59/node-dev:ask
 
-ENTRYPOINT ["sh", "/app/entrypoint.ps1"]
+ENTRYPOINT ["sh", "/app/run.bat"]
 
 WORKDIR /app
-COPY /entrypoint.ps1 ./
+COPY /run.bat ./
 COPY /data/ ./data/
